@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <h1 id="saudação"></h1>  
+    <p id="mensagem"></p> <!-- Adicionado elemento para mensagens -->
+    <div id="janela" class="janela">
+        <div class="conteudo-janela">
+            <h2>Por favor, digite seu nome!</h2>
+            <input id="inputNome" type="text" placeholder="Digite seu nome..." required>
+            <button class="botão" id="enviar" onclick="enviar()">Enviar</button>
+        </div>
+    </div>
+    <main>
+        <nav>
+            <div class="botão">Sobre Mim</div>
+            <div class="botão">Habilidades</div>
+            <div class="botão">Projetos</div>
+            <div class="botão">Currículo</div>
+        </nav>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
