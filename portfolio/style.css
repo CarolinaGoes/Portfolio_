@@ -35,8 +35,9 @@ body {
 }
 
 #inputNome {
-    font-size: 30px;
+    font-size: 30em;
     font-family: "Great Vibes";
+    width: 70%;
 }
 
 .botão {
