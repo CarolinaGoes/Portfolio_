@@ -35,7 +35,7 @@ body {
 }
 
 #inputNome {
-    font-size: 3em;
+    font-size: 1em;
     font-family: "Great Vibes";
     width: 70%;
 }
@@ -67,7 +67,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: "Great Vibes";
-    font-size: 5vw; 
+    font-size: 1em; 
 }
 
 nav {
